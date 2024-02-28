@@ -1,0 +1,229 @@
+
+body{
+	margin:0;
+	padding:0;
+    
+}
+
+.header {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+
+
+.headerli {
+    display: inline;
+    float: right;
+    padding: 3px;
+    padding-right: 0px;
+}
+
+.headerli a {
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    
+}
+
+.headerli a:hover {
+    text-decoration: underline;
+  }  
+
+#banner {
+    background-image: url(/img/body.png);
+    height: 650px;
+    background-size: cover;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    margin: 85px;
+    
+}
+
+/* arama alanı */
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 50px;
+  }
+  
+  /* arama alanın hover kısmı ve gölgelendirme*/
+  .search-area:hover {
+  box-shadow: 0 2px 5px 0 rgba(238, 238, 238, 1), 0 2px 5px 0 rgba(238, 238, 238, 1);
+  }
+ 
+  /* bu alan silinirse border-radius özelliği kaybolur */
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+  /* bu alan arama ikonun ayarları */
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  /* arama ikonun renklendirme kısmı */
+  .search-img span {
+    color: rgb(243, 86, 86);
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    /* bu silinirse arama ikonun rengi eski haline döner "fill:currentColor;" */
+    fill: currentColor;
+    position: relative;
+  }
+
+  /* burası silinirse yazı yazılmaz */
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  /* bu kısım input alanı silinirse içine yazı yazılmaz */
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 20px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+  }
+
+  .input {
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 86, 86);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 20px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    /* bu etiket girinti uzunkuğunu ayarlar */
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    /* bu etiket butonla ilgilidir */
+    appearance: textfield;
+    cursor: text;
+    border: none;
+    width: 480px;
+  }
+  
+/* BUTONLAR ORTALANDI */
+.buttons {
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  /* 1.buton alanı */
+  .googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    /* BUTONLARA İSTENİLEN ÖZELLİKLER VE EK OLARAK BACKGROUND-COLOR VERİLDİ */
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    color: #df5138;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  
+    /* 2.buton alanı */
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    color: #df5138;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+  
+  }
+  
+  /* footer alanı */
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .footerli {
+    float: left;
+   /* liste noktaları kaldırmak için bu kodu kullandım */
+    list-style: none;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #111212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
